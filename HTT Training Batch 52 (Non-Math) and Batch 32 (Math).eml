@@ -1,0 +1,487 @@
+Delivered-To: souvikpatra071@gmail.com
+Received: by 2002:ab3:1ba5:0:0:0:0:0 with SMTP id h34csp7944063lth;
+        Wed, 15 Dec 2021 01:56:47 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJxy6P9fT5ywU6e+46K10nUngZ73e7pJArc4CS0TJvTXhSaURYzWn6EBhtZVuMevlD8KP6AG
+X-Received: by 2002:a63:380e:: with SMTP id f14mr7208094pga.227.1639562206781;
+        Wed, 15 Dec 2021 01:56:46 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1639562206; cv=none;
+        d=google.com; s=arc-20160816;
+        b=plphfHojAigvKqD4zdeI2bkGkgi6ITXmmuUoPdc635UlcSi0XTZ4DMh2QI/Evv3s00
+         owFeMlLGhr1w9pQC2QO7R9iC8kHDM81MWut8wlMN0EZX21vKg+xeXD6cQ5zfBAxLBn+i
+         d1s9dToKQv5bUCOcFlB1hITHexg2wJTPgTemV6QjOsUCWDnflkvb/QO5sgvwshvgSaPJ
+         wL8FX6ps1sQzjiu8rODogq/8S24UAoC8SRTDWNnmcknBZk1lRCK2p542sL674GIsM414
+         qFRM3GXzzcxIK89cVO1jVVDoPOQLjUcUW37wdYB3VHB7fNV5GFHXGLmTciOoL7/s+nan
+         XwEA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:dkim-signature:dkim-filter;
+        bh=7SNjoQmbXQ65psgTmqAqoCl2P1YeH7YOxxXdfOfEoDQ=;
+        b=mTarxCHw9EzXUda7fbS+vPgDNQrNHVngZkfyO5pa0E6nNwGJ7/nKVmWxk/qwhdGQIE
+         V7eYtSd2EYovqm/efHHaCK5Z8rEazr+I9cF+qVr7qmz7+G0OwRDA2w8CLkzgjnTiupuk
+         9kn+RvZGVXnuLhm7V8OsJntC84w8ZO8U8JqfTzN1bB+E2MSZj19uCpxrjgvi5HidflIW
+         cjH5Mipe54PRGNkzZLsUNKioEfd8gfIxio9i/eJ32wBlXEgxzTWw6VdMI0VTCtu+YeVB
+         vdVHTgya+9tul6vr+AEr09OnkcBqqqRrq7G1jzcwy1ysYlBn1FCCt2VNtG6cjoyI40AD
+         rkKA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@focusedumatics.com header.s=F651654A-A059-11E9-BF56-C74A96E82251 header.b=Q6ktYVnQ;
+       spf=pass (google.com: domain of hometutors@focusedumatics.com designates 1.6.66.49 as permitted sender) smtp.mailfrom=hometutors@focusedumatics.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=focusedumatics.com
+Return-Path: <hometutors@focusedumatics.com>
+Received: from mail.focusedumatics.com (vmmail.focusedumatics.com. [1.6.66.49])
+        by mx.google.com with ESMTPS id 130si110091pgb.614.2021.12.15.01.56.46
+        for <souvikpatra071@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 15 Dec 2021 01:56:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of hometutors@focusedumatics.com designates 1.6.66.49 as permitted sender) client-ip=1.6.66.49;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@focusedumatics.com header.s=F651654A-A059-11E9-BF56-C74A96E82251 header.b=Q6ktYVnQ;
+       spf=pass (google.com: domain of hometutors@focusedumatics.com designates 1.6.66.49 as permitted sender) smtp.mailfrom=hometutors@focusedumatics.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=focusedumatics.com
+Received: from localhost (localhost [127.0.0.1])
+	by mail.focusedumatics.com (Postfix) with ESMTP id 2B96A4051B73F
+	for <souvikpatra071@gmail.com>; Wed, 15 Dec 2021 15:26:45 +0530 (IST)
+Received: from mail.focusedumatics.com ([127.0.0.1])
+	by localhost (mail.focusedumatics.com [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id yn1cP3GicHnN for <souvikpatra071@gmail.com>;
+	Wed, 15 Dec 2021 15:26:44 +0530 (IST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.focusedumatics.com (Postfix) with ESMTP id 49FDE4059B84C
+	for <souvikpatra071@gmail.com>; Wed, 15 Dec 2021 15:26:44 +0530 (IST)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.focusedumatics.com 49FDE4059B84C
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=focusedumatics.com;
+	s=F651654A-A059-11E9-BF56-C74A96E82251; t=1639562204;
+	bh=7SNjoQmbXQ65psgTmqAqoCl2P1YeH7YOxxXdfOfEoDQ=;
+	h=From:To:Date:Message-ID:MIME-Version;
+	b=Q6ktYVnQNoHqYxUhU8Ouw+OMlyRhfpmOTAfT5fXo++LJRxNvsqA1cfSkBj0ft0nTP
+	 2/+5AahqOWWyLCO0BjAWDmb7UaGaAZMzGq5okx2+suHXyFhg86yaTvndMDxeCQ0Nmr
+	 70JNpSaLYNJ/BLMBXJDN/zAcuWV9iKtJUlGTxzyg=
+X-Virus-Scanned: amavisd-new at focusedumatics.com
+Received: from mail.focusedumatics.com ([127.0.0.1])
+	by localhost (mail.focusedumatics.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id BEbCwtevEnrd for <souvikpatra071@gmail.com>;
+	Wed, 15 Dec 2021 15:26:44 +0530 (IST)
+Received: from FGBLT0056 (unknown [1.39.154.50])
+	(Authenticated sender: hometutors@focusedumatics.com)
+	by mail.focusedumatics.com (Postfix) with ESMTPSA id F0F014052E877
+	for <souvikpatra071@gmail.com>; Wed, 15 Dec 2021 15:26:43 +0530 (IST)
+From: "Hometutors Support Team" <hometutors@focusedumatics.com>
+To: <souvikpatra071@gmail.com>
+Subject: HTT Training Batch 52 (Non-Math) and Batch 32 (Math)
+Date: Wed, 15 Dec 2021 15:23:41 +0530
+Message-ID: <093d01d7f199$a425a5e0$ec70f1a0$@focusedumatics.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_093E_01D7F1C7.BDE13D40"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdfxmaPolQDkm5vYRHyVp9BAE+YoQA==
+Content-Language: en-us
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_093E_01D7F1C7.BDE13D40
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear Souvik,
+
+ 
+
+Greetings!
+
+Here is the attached link (https://us06web.zoom.us/j/87865514676) and the
+recommendations to join the Training starting today at 3:30 PM IST using
+Zoom application. Please make sure to join the meeting before the scheduled
+time. The Meeting link would be same for every day till our next
+instructions.
+
+
+Meeting Link to join Meeting and Recommendations
+
+
+Meeting Name
+
+HTT Training Batch 52 (Non-Math) and Batch 32 (Math)
+
+
+Time (IST)
+
+3:30 PM - 7:30 PM
+
+
+Duration
+
+4 -5 Hours (with 30 Minutes of break)
+
+
+Device 
+
+PC or Laptop
+
+
+Web Browser 
+
+Chrome or Firefox
+
+
+Meeting Link
+
+https://us06web.zoom.us/j/87865514676
+
+
+Meeting ID
+
+878 6551 4676
+
+
+Enter your Name
+
+Update your full name 
+
+
+Recommended Internet Speed
+
+Above 4 Mbps 
+
+
+Recommended
+
+Use wired Broadband/Wi-Fi Network
+
+ 
+
+Please use the below Google link to check your attendance and all other
+important information:  
+
+https://docs.google.com/spreadsheets/d/1_DQNaxpsOKsSPKDbxsnrto2yL82iqNxRytcU
+M5DX88Y/edit?usp=sharing
+
+ 
+
+Thank you!
+
+ 
+
+Best Regards,
+
+Anand Shankar
+
+Hometutors Support Team!
+
+hometutors@focusedumatics.com <mailto:hometutors@focusedumatics.com>
+
+
+www.focusedumatics.com <http://www.focusedumatics.com/> 
+
+#31, 4th Floor, Above A2B Restaurant,
+
+Hebbal Outer Ring Road,
+
+Bhadrappa Layout, Nagashettyhalli,
+
+Bengaluru, Karnataka - 560094
+
+Mobile: 9513399355, 8050017771
+
+ 
+
+
+------=_NextPart_000_093E_01D7F1C7.BDE13D40
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple style=3D'word-wrap:break-word'><div =
+class=3DWordSection1><p class=3DMsoNormal><b><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif'>Dear =
+Souvik,<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif'><o:p>&nbsp;</o:p><=
+/span></b></p><p class=3DMsoNormal><b><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif'>Greetings!<o:p></o=
+:p></span></b></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+lang=3DEN-IN style=3D'font-size:12.0pt;font-family:"Cambria",serif'>Here =
+is the attached link (</span><b><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif'>https://us06web.zo=
+om.us/j/87865514676</span></b><span lang=3DEN-IN =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif'>) and the =
+recommendations to join the Training starting today at 3:30 PM IST using =
+<b>Zoom application</b>. Please make sure to join the meeting before the =
+scheduled time. The Meeting link would be same for every day till our =
+next instructions.</span><b><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif'><o:p></o:p></span>=
+</b></p><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 width=3D658 =
+style=3D'width:493.5pt;margin-left:.5in;border-collapse:collapse'><tr =
+style=3D'height:13.45pt'><td width=3D658 colspan=3D2 valign=3Dbottom =
+style=3D'width:493.65pt;border:solid windowtext =
+1.0pt;background:#E6B9B8;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'><p =
+class=3DMsoNormal align=3Dcenter =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;text-align:ce=
+nter;line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif;color:black'>Meeting Link to join =
+Meeting and Recommendations</span></b><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr><tr=
+ style=3D'height:13.45pt'><td width=3D133 valign=3Dbottom =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Meeting =
+Name</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dbottom =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:13.45pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>HTT =
+Training Batch 52 (Non-Math) and Batch 32 (Math)</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr><tr=
+ style=3D'height:20.85pt'><td width=3D133 nowrap valign=3Dbottom =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:20.85pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><u><span style=3D'font-family:"Cambria",serif'>Time =
+(IST)</span></u><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 nowrap valign=3Dbottom =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:20.85pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif'>3:30 PM &#8211; 7:30 =
+PM<o:p></o:p></span></p></td></tr><tr style=3D'height:14.8pt'><td =
+width=3D133 valign=3Dtop style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.8pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><u><span =
+style=3D'font-family:"Cambria",serif'>Duration</span></u><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dtop =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:14.8pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif'>4 -5 Hours (with 30 =
+Minutes of break)<o:p></o:p></span></p></td></tr><tr =
+style=3D'height:13.45pt'><td width=3D133 valign=3Dbottom =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Device =
+</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dbottom =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:13.45pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>PC or =
+Laptop</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr><tr=
+ style=3D'height:13.45pt'><td width=3D133 valign=3Dbottom =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Web Browser =
+</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dbottom =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:13.45pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Chrome or =
+Firefox</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr><tr=
+ style=3D'height:20.85pt'><td width=3D133 nowrap valign=3Dtop =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:20.85pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Meeting =
+Link</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 nowrap valign=3Dtop =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:20.85pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><b><span =
+style=3D'font-family:"Cambria",serif'>https://us06web.zoom.us/j/878655146=
+76<o:p></o:p></span></b></p></td></tr><tr style=3D'height:20.85pt'><td =
+width=3D133 nowrap valign=3Dtop style=3D'width:99.9pt;border:solid =
+windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in =
+5.4pt;height:20.85pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Meeting =
+ID<o:p></o:p></span></p></td><td width=3D525 nowrap valign=3Dtop =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:20.85pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><b><span style=3D'font-family:"Cambria",serif'>878 6551 =
+4676<o:p></o:p></span></b></p></td></tr><tr style=3D'height:26.9pt'><td =
+width=3D133 valign=3Dtop style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:26.9pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Enter your =
+Name</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dtop =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:26.9pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Update your =
+<b>full name </b></span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr><tr=
+ style=3D'height:13.45pt'><td width=3D133 valign=3Dtop =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Recommended =
+Internet Speed</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dtop =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:13.45pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Above 4 =
+Mbps </span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr><tr=
+ style=3D'height:13.45pt'><td width=3D133 valign=3Dtop =
+style=3D'width:99.9pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span =
+style=3D'font-family:"Cambria",serif;color:black'>Recommended</span><span=
+ style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td><td =
+width=3D525 valign=3Dtop =
+style=3D'width:393.75pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in =
+5.4pt 0in 5.4pt;height:13.45pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+15%'><span style=3D'font-family:"Cambria",serif;color:black'>Use wired =
+Broadband/Wi-Fi Network</span><span =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p></td></tr></t=
+able><p class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif;color:black'><o:p>&=
+nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'font-size:12.0pt;font-family:"Cambria",serif;color:black'>Please=
+ use the below Google link to check your attendance and all other =
+important information:&nbsp;&nbsp;<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'><a =
+href=3D"https://docs.google.com/spreadsheets/d/1_DQNaxpsOKsSPKDbxsnrto2yL=
+82iqNxRytcUM5DX88Y/edit?usp=3Dsharing">https://docs.google.com/spreadshee=
+ts/d/1_DQNaxpsOKsSPKDbxsnrto2yL82iqNxRytcUM5DX88Y/edit?usp=3Dsharing</a><=
+o:p></o:p></span></b></p><p class=3DMsoNormal =
+style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'>Thank =
+you!<o:p></o:p></span></b></p><p class=3DMsoNormal =
+style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'>Best =
+Regards,<o:p></o:p></span></b></p><p class=3DMsoNormal =
+style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'>Anand =
+Shankar<o:p></o:p></span></b></p><p class=3DMsoNormal =
+style=3D'line-height:115%'><b><span =
+style=3D'font-family:"Cambria",serif'>Hometutors Support =
+Team!</span></b><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'><a =
+href=3D"mailto:hometutors@focusedumatics.com" =
+target=3D"_blank">hometutors@focusedumatics.com</a>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'><a =
+href=3D"http://www.focusedumatics.com/" =
+target=3D"_blank">www.focusedumatics.com</a></span><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'>#31, 4<sup>th</sup> Floor, Above =
+A2B Restaurant,</span><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'>Hebbal Outer Ring =
+Road,</span><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'>Bhadrappa Layout, =
+Nagashettyhalli,</span><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'>Bengaluru, Karnataka &#8211; =
+560094</span><span lang=3DEN-IN =
+style=3D'font-family:"Cambria",serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:115%'><span =
+style=3D'font-family:"Cambria",serif'>Mobile: 9513399355, =
+8050017771<o:p></o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_093E_01D7F1C7.BDE13D40--
+

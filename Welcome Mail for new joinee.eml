@@ -1,0 +1,106 @@
+Delivered-To: souvikpatra071@gmail.com
+Received: by 2002:ab3:7bc4:0:0:0:0:0 with SMTP id t4csp704404ltk;
+        Fri, 21 Jan 2022 07:45:26 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJz9oytKSw6sP8VsvjnqWaUM32pFw+nKPudKzQMfFwyYNW+5DOx/f0JLjWe3GaYWyGMPRekL
+X-Received: by 2002:a17:90a:b798:: with SMTP id m24mr1300804pjr.143.1642779926476;
+        Fri, 21 Jan 2022 07:45:26 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1642779926; cv=none;
+        d=google.com; s=arc-20160816;
+        b=a7nvRo46q4zUTc3/CcVUH1WaFKTn14PSQLwg23KS3snf8Hmb1sXNbdNto5ZK5PSrbM
+         sEkJf+HLVpzk4q0s3fkHRM+OPzhNVp34eeY55OiW8toPvMWfhLPaphl8M5DiKcvD9o9b
+         DQS2EcgPWVfOUHsBfdh3eFmh28TSW2GlxRppYNL46a3m1ZN1Vp0oGbWhWMxAqv05M1hW
+         a8dcTd2DpA0I6OD3snG/dFEqmswRIJ3xeFyEv4ELHS1AdsaqAwyA6jusCPDwqvEARWHu
+         5DIvfV7euReBGKfG5F/gIBBw8sJ3gRrLlmeE8jSUAxLKgQMwTRmhFYvmEroxKPeG1ACu
+         ehMg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:content-transfer-encoding:subject:date:to:from
+         :mime-version:dkim-signature:dkim-filter;
+        bh=YHFPAyIEzI2APFsjR7KQeU7hN472fqFK/m1RJeLhjEo=;
+        b=wtoAw4Gutq+H5VMK/3n7ig1erFZBuNlZm2BawmoFHG31jEqj8+FMosH+vzcbeFfiQt
+         bGO444kTLhu6p4mZRep04cMDMd5u48onyhHOjU2ZqXAv5CiRuQkIy9oghlb7RbeLI8n6
+         6Ap9LTlr21ZRzGwBoUwBxFyVoaOKn41hIOLAPJAsmos1FyfIfr0qSkiKjbF0qTep3ru4
+         BuFDWJU/YzVmEmRGl8EhaxFQ4UBTIGYsywqjXjLSCHBRg0a3oytAXn5kIbLOW0ZUDcyr
+         ZJz47GPMdjJKECbx1RHQfT38Ig1ZqT4QshxfjigBT0PtrSQyVaBNxfgwBLJh0sAoFM3m
+         Prsg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@focusedumatics.com header.s=F651654A-A059-11E9-BF56-C74A96E82251 header.b=R4eGeB0o;
+       spf=pass (google.com: domain of hrms.help@focusedumatics.com designates 1.6.66.49 as permitted sender) smtp.mailfrom=hrms.help@focusedumatics.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=focusedumatics.com
+Return-Path: <hrms.help@focusedumatics.com>
+Received: from mail.focusedumatics.com (vmmail.focusedumatics.com. [1.6.66.49])
+        by mx.google.com with ESMTPS id 70si6450570pgb.73.2022.01.21.07.45.26
+        for <souvikpatra071@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 21 Jan 2022 07:45:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of hrms.help@focusedumatics.com designates 1.6.66.49 as permitted sender) client-ip=1.6.66.49;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@focusedumatics.com header.s=F651654A-A059-11E9-BF56-C74A96E82251 header.b=R4eGeB0o;
+       spf=pass (google.com: domain of hrms.help@focusedumatics.com designates 1.6.66.49 as permitted sender) smtp.mailfrom=hrms.help@focusedumatics.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=focusedumatics.com
+Received: from localhost (localhost [127.0.0.1])
+	by mail.focusedumatics.com (Postfix) with ESMTP id 77D4E40494C32
+	for <souvikpatra071@gmail.com>; Fri, 21 Jan 2022 21:15:24 +0530 (IST)
+Received: from mail.focusedumatics.com ([127.0.0.1])
+	by localhost (mail.focusedumatics.com [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id iQ-dGtanc-bf for <souvikpatra071@gmail.com>;
+	Fri, 21 Jan 2022 21:15:23 +0530 (IST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.focusedumatics.com (Postfix) with ESMTP id D8D52404B7167
+	for <souvikpatra071@gmail.com>; Fri, 21 Jan 2022 21:15:23 +0530 (IST)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.focusedumatics.com D8D52404B7167
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=focusedumatics.com;
+	s=F651654A-A059-11E9-BF56-C74A96E82251; t=1642779923;
+	bh=YHFPAyIEzI2APFsjR7KQeU7hN472fqFK/m1RJeLhjEo=;
+	h=MIME-Version:From:To:Date:Message-Id;
+	b=R4eGeB0owDB91PJ11JVRCoFwe6d0EKQTDtyCScVEALUy2nMU5B/GQkdPFlLYznmUx
+	 G0E+Bix/Bxt/0T7f0CnOKDDXMMIloynkowaJR1uj6sIKf6SgjK/DFtsHMyJhuDCMxa
+	 fDhUh6Aw/sKvwJecZNNqzPTctBRyQaWhBsUKk6hM=
+X-Virus-Scanned: amavisd-new at focusedumatics.com
+Received: from mail.focusedumatics.com ([127.0.0.1])
+	by localhost (mail.focusedumatics.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id r2OWbsN_FFFC for <souvikpatra071@gmail.com>;
+	Fri, 21 Jan 2022 21:15:23 +0530 (IST)
+Received: from focapps2 (unknown [13.90.156.35])
+	(Authenticated sender: hrms.help@focusedumatics.com)
+	by mail.focusedumatics.com (Postfix) with ESMTPSA id 3CADA40494C32
+	for <souvikpatra071@gmail.com>; Fri, 21 Jan 2022 21:15:22 +0530 (IST)
+MIME-Version: 1.0
+From: hrms.help@focusedumatics.com
+To: souvikpatra071@gmail.com
+Date: 21 Jan 2022 15:45:23 +0000
+Subject: Welcome Mail for new joinee
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+Message-Id: <20220121154523.3CADA40494C32@mail.focusedumatics.com>
+
+PGh0bWw+PHRhYmxlPjx0cj48dGQ+PGI+IEdyZWV0aW5ncyw8L2I+PC90ZD48L3RyPjx0
+cj48dGQ+PC90ZD48L3RyPjx0cj48dGQ+V2Ugd2VsY29tZSB5b3UgYmVpbmcgYXNzb2Np
+YXRlZCBhcyBIb21lLWJhc2VkIENvbnRyYWN0b3Igb2YgQ29tcGFueU5hbWUgYW5kIHNp
+bmNlcmVseSB3aXNoIHRoYXQgeW91IGhhdmUgYSBmcnVpdGZ1bCBhc3NvY2lhdGlvbiBh
+bmQgYSBsb25nLXRlcm0gcmV3YXJkaW5nIGNhcmVlciB3aXRoIHVzLiBLaW5kbHkgc3Vi
+bWl0IGFsbCByZWxldmFudCBkb2N1bWVudHMgYXQgdGhlIGVhcmxpZXN0IHRvIGNvbXBs
+ZXRlIHlvdXIgam9pbmluZyBmb3JtYWxpdGllcyAocGxlYXNlIGlnbm9yZSBpZiB5b3Ug
+aGF2ZSBhbHJlYWR5IHN1Ym1pdHRlZCkuICBPbmNlIGFnYWluLCB3ZSB3aXNoIHlvdSBl
+dmVyeSBzdWNjZXNzIGluIHlvdXIgcm9sZSBhdCBDb21wYW55TmFtZTxici8+Cjxici8+
+CjEuIFBsZWFzZSBiZSBhd2FyZSB0aGF0IHlvdXIgcmVwb3J0aW5nIG1hbmFnZXIgaXMg
+eW91ciBmaXJzdCBwb2ludCBvZiBjb250YWN0LCBhbmQgd2UgZW5jb3VyYWdlIHlvdSB0
+byByZWFjaCBvdXQgdG8gaGltL2hlciBmb3IgYW55IGNvbmNlcm5zLCBxdWVyaWVzLCBz
+dWdnZXN0aW9ucywgZXRjPGJyLz4KPGJyLz4KMi4gUGxlYXNlIGtlZXAgeW91ciByZXBv
+cnRpbmcgbWFuYWdlcuKAmXMgcGhvbmUgbnVtYmVyIGhhbmR5Ljxici8+Cjxici8+CjMu
+QWxsIGNvbXBhbnktcmVsYXRlZCBwb2xpY2llcyBhbmQgZ3VpZGVsaW5lcyBhcmUgaG9z
+dGVkIG9uIGNvbXBhbnnigJlzIGludHJhbmV0IHBhZ2UsIGFuZCBmb2xsb3dpbmcgaXMg
+dGhlIGh5cGVybGluayBmb3IgdGhlIHNhbWUgLS0+ICA8YSBocmVmID0gJ2h0dHA6Ly93
+d3cuZm9jdXNpbnRyYWh1Yi5jb20vIy8gJz48dT5odHRwOi8vd3d3LmZvY3VzaW50cmFo
+dWIuY29tLyMvIDwvdT48L2E+PGJyLz4KPGJyLz4KNC5JZiB5b3UgYXJlIG5vdCBzYXRp
+c2ZpZWQgYnkgdGhlIHJlc29sdXRpb24gcHJvdmlkZWQgYnkgeW91ciByZXBvcnRpbmcg
+bWFuYWdlciwgdGhlbiB5b3UgbWF5IHJlYWNoIG91dCB0byBIUiBkZXBhcnRtZW50LCB3
+aGljaCBpcyBzaXR1YXRlZCBhdCA0dGggZmxvb3Igb3IgYWx0ZXJuYXRpdmVseSB2aWEg
+dGhlIGZvbGxvd2luZyBlLW1haWwgSUQgPyAgIiArICI8YSBocmVmID0gJ2hyQGZvY3Vz
+ZWR1bWF0aWNzLmNvbSAnPjx1PmhyQGZvY3VzZWR1bWF0aWNzLmNvbTwvdT48L2E+IiAr
+ICI8YnIvPgo8YnIvPgo1Lk91ciBjb21wYW554oCZcyBwaG9uZSBudW1iZXIgaXMgKzkx
+LTgwLTYxNDItNDI0Mi4gIFBsZWFzZSBzaGFyZSB0aGlzIHBob25lIG51bWJlciB3aXRo
+IHlvdXIgZmFtaWx5IG1lbWJlcnMgdG8gYmUgdXNlZCBvbmx5IGluIGNhc2Ugb2YgZW1l
+cmdlbmN5LiA8L3RkPjwvdHI+PHRyPjx0ZD48L3RkPjwvdHI+PHRyPjx0ZD48L3RkPjwv
+dHI+PHRyPjx0ZD48Yj5UaGFua3MsIDxici8+CkhSTVMgVGVhbTwvYj48L3RkPjwvdHI+
+PC90YWJsZT48L2h0bWw+
+
