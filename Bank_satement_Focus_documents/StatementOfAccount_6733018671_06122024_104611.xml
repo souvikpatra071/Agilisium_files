@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+   <fName>StatementOfAccount_6733018671_06122024_104611.xml</fName>
+   <totalRecords>99</totalRecords>
+   <openingBalance>6665.58</openingBalance>
+   <fData>
+      <rows>
+         <tranDate></tranDate>
+         <tranValueDate></tranValueDate>
+         <tranPostDate></tranPostDate>
+         <tranParticulars>BALANCE B/F</tranParticulars>
+         <tranAmount>0.0</tranAmount>
+         <balanceAfterTran>6665.58</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>01/01/2022</tranDate>
+         <tranValueDate>01/01/2022</tranValueDate>
+         <tranPostDate>01/01/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 200118017144 ATM ID 0980WS14 SELF AMATALA                SOUTH 24 PAR TRAN DATE  (MMDD) 0101  TRAN TIME  (HHMMSS) 182514</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>6165.58</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>03/01/2022</tranDate>
+         <tranValueDate>03/01/2022</tranValueDate>
+         <tranPostDate>03/01/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER NEFT/SBIN EMPLOYEE PROVIDE/SBIN222003388592 TRANSFER FROM 94966000128</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>9000.0</tranAmount>
+         <balanceAfterTran>15165.58</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>07/01/2022</tranDate>
+         <tranValueDate>07/01/2022</tranValueDate>
+         <tranPostDate>07/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/200689019655/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>30.0</tranAmount>
+         <balanceAfterTran>15135.58</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>08/01/2022</tranDate>
+         <tranValueDate>08/01/2022</tranValueDate>
+         <tranPostDate>08/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/200825056170/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>211.0</tranAmount>
+         <balanceAfterTran>14924.58</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>09/01/2022</tranDate>
+         <tranValueDate>09/01/2022</tranValueDate>
+         <tranPostDate>09/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/200958060312/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>14424.58</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>10/01/2022</tranDate>
+         <tranValueDate>10/01/2022</tranValueDate>
+         <tranPostDate>10/01/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/201083308552/Dec payment done TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>1874.25</tranAmount>
+         <balanceAfterTran>16298.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>12/01/2022</tranDate>
+         <tranValueDate>12/01/2022</tranValueDate>
+         <tranPostDate>12/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/201268151172/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>301.0</tranAmount>
+         <balanceAfterTran>15997.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>16/01/2022</tranDate>
+         <tranValueDate>16/01/2022</tranValueDate>
+         <tranPostDate>16/01/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 201612001468 ATM ID A9758001 SELF AMTOLA                 SOUTH TWENTY TRAN DATE  (MMDD) 0116  TRAN TIME  (HHMMSS) 125753</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>15497.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>17/01/2022</tranDate>
+         <tranValueDate>17/01/2022</tranValueDate>
+         <tranPostDate>17/01/2022</tranPostDate>
+         <tranParticulars>POS PRCH POS TXN SEQ NO 201718926198 POS ID 70552884 LIFE LINE A UNIT OF GS KOLKATA DATE  (MMDD) 0117       TIME  (HHMMSS) 184436</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>120.0</tranAmount>
+         <balanceAfterTran>15377.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>18/01/2022</tranDate>
+         <tranValueDate>18/01/2022</tranValueDate>
+         <tranPostDate>18/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/201824474389/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>19.0</tranAmount>
+         <balanceAfterTran>15358.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/01/2022</tranDate>
+         <tranValueDate>20/01/2022</tranValueDate>
+         <tranPostDate>20/01/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 202019005574 ATM ID SPCNF023 SELF +COSSIPORE RD KOLKATA  KOLKATA TRAN DATE  (MMDD) 0120  TRAN TIME  (HHMMSS) 195859</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>2500.0</tranAmount>
+         <balanceAfterTran>12858.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>27/01/2022</tranDate>
+         <tranValueDate>27/01/2022</tranValueDate>
+         <tranPostDate>27/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/202719514104/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>19.0</tranAmount>
+         <balanceAfterTran>12839.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>27/01/2022</tranDate>
+         <tranValueDate>27/01/2022</tranValueDate>
+         <tranPostDate>27/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/202723898954/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>201.0</tranAmount>
+         <balanceAfterTran>12638.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>28/01/2022</tranDate>
+         <tranValueDate>28/01/2022</tranValueDate>
+         <tranPostDate>28/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/202886614184/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>400.0</tranAmount>
+         <balanceAfterTran>12238.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>29/01/2022</tranDate>
+         <tranValueDate>29/01/2022</tranValueDate>
+         <tranPostDate>29/01/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/202969989517/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>200.0</tranAmount>
+         <balanceAfterTran>12438.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>29/01/2022</tranDate>
+         <tranValueDate>29/01/2022</tranValueDate>
+         <tranPostDate>29/01/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/202949450826/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>700.0</tranAmount>
+         <balanceAfterTran>13138.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>29/01/2022</tranDate>
+         <tranValueDate>29/01/2022</tranValueDate>
+         <tranPostDate>29/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/202991846762/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>800.0</tranAmount>
+         <balanceAfterTran>12338.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>30/01/2022</tranDate>
+         <tranValueDate>30/01/2022</tranValueDate>
+         <tranPostDate>30/01/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/203085156299/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>11338.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>02/02/2022</tranDate>
+         <tranValueDate>02/02/2022</tranValueDate>
+         <tranPostDate>02/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/203380926011/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>12338.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>03/02/2022</tranDate>
+         <tranValueDate>03/02/2022</tranValueDate>
+         <tranPostDate>03/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/203441264199/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>11838.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>03/02/2022</tranDate>
+         <tranValueDate>03/02/2022</tranValueDate>
+         <tranPostDate>03/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/203472379667/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>11338.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>07/02/2022</tranDate>
+         <tranValueDate>07/02/2022</tranValueDate>
+         <tranPostDate>07/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/203886610152/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>183.0</tranAmount>
+         <balanceAfterTran>11155.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>08/02/2022</tranDate>
+         <tranValueDate>08/02/2022</tranValueDate>
+         <tranPostDate>08/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/203910418306/UPI TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>20.0</tranAmount>
+         <balanceAfterTran>11175.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>10/02/2022</tranDate>
+         <tranValueDate>10/02/2022</tranValueDate>
+         <tranPostDate>10/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/204118391780/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>12175.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>10/02/2022</tranDate>
+         <tranValueDate>10/02/2022</tranValueDate>
+         <tranPostDate>10/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/204111282033/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>11175.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>10/02/2022</tranDate>
+         <tranValueDate>10/02/2022</tranValueDate>
+         <tranPostDate>10/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/204180442698/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>241.0</tranAmount>
+         <balanceAfterTran>10934.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>12/02/2022</tranDate>
+         <tranValueDate>12/02/2022</tranValueDate>
+         <tranPostDate>12/02/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 204320248388 ATM ID N3013620 SELF AMTALAHAT SERVICE      SOUTH 24 TRAN DATE  (MMDD) 0212  TRAN TIME  (HHMMSS) 201440</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>10434.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>13/02/2022</tranDate>
+         <tranValueDate>13/02/2022</tranValueDate>
+         <tranPostDate>13/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/204477334222/January payment done TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>2234.0</tranAmount>
+         <balanceAfterTran>12668.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate></tranDate>
+         <tranValueDate></tranValueDate>
+         <tranPostDate></tranPostDate>
+         <tranParticulars>BALANCE B/F</tranParticulars>
+         <tranAmount>0.0</tranAmount>
+         <balanceAfterTran>12668.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>16/02/2022</tranDate>
+         <tranValueDate>16/02/2022</tranValueDate>
+         <tranPostDate>16/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/204663464512/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>300.0</tranAmount>
+         <balanceAfterTran>12968.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>16/02/2022</tranDate>
+         <tranValueDate>16/02/2022</tranValueDate>
+         <tranPostDate>16/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER NEFT/UTIB FOCUS EDUMATICS /AXISP00263554429 TRANSFER FROM 94963000121</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>1074.0</tranAmount>
+         <balanceAfterTran>14042.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>16/02/2022</tranDate>
+         <tranValueDate>16/02/2022</tranValueDate>
+         <tranPostDate>16/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/204766142452/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>300.0</tranAmount>
+         <balanceAfterTran>13742.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>18/02/2022</tranDate>
+         <tranValueDate>18/02/2022</tranValueDate>
+         <tranPostDate>18/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/204938317889/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>50.0</tranAmount>
+         <balanceAfterTran>13692.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/02/2022</tranDate>
+         <tranValueDate>20/02/2022</tranValueDate>
+         <tranPostDate>20/02/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 205119018627 ATM ID 00004041 SELF SOUTH SINTHEE MORE     KOLKATA TRAN DATE  (MMDD) 0220  TRAN TIME  (HHMMSS) 194454</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>12692.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/02/2022</tranDate>
+         <tranValueDate>20/02/2022</tranValueDate>
+         <tranPostDate>20/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205101328994/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>36.0</tranAmount>
+         <balanceAfterTran>12656.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>21/02/2022</tranDate>
+         <tranValueDate>21/02/2022</tranValueDate>
+         <tranPostDate>21/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205256942919/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>241.0</tranAmount>
+         <balanceAfterTran>12415.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>21/02/2022</tranDate>
+         <tranValueDate>21/02/2022</tranValueDate>
+         <tranPostDate>21/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205214513528/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>200.0</tranAmount>
+         <balanceAfterTran>12215.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>21/02/2022</tranDate>
+         <tranValueDate>21/02/2022</tranValueDate>
+         <tranPostDate>21/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/205218239733/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>200.0</tranAmount>
+         <balanceAfterTran>12415.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>22/02/2022</tranDate>
+         <tranValueDate>22/02/2022</tranValueDate>
+         <tranPostDate>22/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205378574897/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>2500.0</tranAmount>
+         <balanceAfterTran>9915.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>22/02/2022</tranDate>
+         <tranValueDate>22/02/2022</tranValueDate>
+         <tranPostDate>22/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205312816932/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>2500.0</tranAmount>
+         <balanceAfterTran>7415.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>22/02/2022</tranDate>
+         <tranValueDate>22/02/2022</tranValueDate>
+         <tranPostDate>22/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205335145453/UPI TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1100.0</tranAmount>
+         <balanceAfterTran>6315.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>22/02/2022</tranDate>
+         <tranValueDate>22/02/2022</tranValueDate>
+         <tranPostDate>22/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205356014122/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>300.0</tranAmount>
+         <balanceAfterTran>6015.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>24/02/2022</tranDate>
+         <tranValueDate>24/02/2022</tranValueDate>
+         <tranPostDate>24/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI DRC 205378574897 22 02 22 TRANSFER FROM 50373527439 UPI SETTLEMENT A/C</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>2500.0</tranAmount>
+         <balanceAfterTran>8515.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>25/02/2022</tranDate>
+         <tranValueDate>25/02/2022</tranValueDate>
+         <tranPostDate>25/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205678913365/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>7515.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>25/02/2022</tranDate>
+         <tranValueDate>25/02/2022</tranValueDate>
+         <tranPostDate>25/02/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/205677923050/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>3700.0</tranAmount>
+         <balanceAfterTran>11215.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>25/02/2022</tranDate>
+         <tranValueDate>25/02/2022</tranValueDate>
+         <tranPostDate>25/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205625951074/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>100.0</tranAmount>
+         <balanceAfterTran>11115.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>25/02/2022</tranDate>
+         <tranValueDate>25/02/2022</tranValueDate>
+         <tranPostDate>25/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205658084792/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>200.0</tranAmount>
+         <balanceAfterTran>10915.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>26/02/2022</tranDate>
+         <tranValueDate>26/02/2022</tranValueDate>
+         <tranPostDate>26/02/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/205768114264/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>420.0</tranAmount>
+         <balanceAfterTran>10495.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>02/03/2022</tranDate>
+         <tranValueDate>02/03/2022</tranValueDate>
+         <tranPostDate>02/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206127667124/UPI TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>6000.0</tranAmount>
+         <balanceAfterTran>4495.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>03/03/2022</tranDate>
+         <tranValueDate>03/03/2022</tranValueDate>
+         <tranPostDate>03/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/206116871830/UPI TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>800.0</tranAmount>
+         <balanceAfterTran>5295.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>03/03/2022</tranDate>
+         <tranValueDate>03/03/2022</tranValueDate>
+         <tranPostDate>03/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206129891424/bhagyalaxmi fees TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>800.0</tranAmount>
+         <balanceAfterTran>4495.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>03/03/2022</tranDate>
+         <tranValueDate>03/03/2022</tranValueDate>
+         <tranPostDate>03/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206232000770/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>850.0</tranAmount>
+         <balanceAfterTran>3645.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>05/03/2022</tranDate>
+         <tranValueDate>05/03/2022</tranValueDate>
+         <tranPostDate>05/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/206425631303/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>1500.0</tranAmount>
+         <balanceAfterTran>5145.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>06/03/2022</tranDate>
+         <tranValueDate>06/03/2022</tranValueDate>
+         <tranPostDate>06/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206558419114/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>49.0</tranAmount>
+         <balanceAfterTran>5096.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>06/03/2022</tranDate>
+         <tranValueDate>06/03/2022</tranValueDate>
+         <tranPostDate>06/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206550810722/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>50.0</tranAmount>
+         <balanceAfterTran>5046.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>06/03/2022</tranDate>
+         <tranValueDate>06/03/2022</tranValueDate>
+         <tranPostDate>06/03/2022</tranPostDate>
+         <tranParticulars>POS PRCH POS TXN SEQ NO 206520911085 POS ID 79249666 SRI RAM VEGETABLES     KANCHEE DATE  (MMDD) 0306       TIME  (HHMMSS) 201753</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>100.0</tranAmount>
+         <balanceAfterTran>4946.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>06/03/2022</tranDate>
+         <tranValueDate>06/03/2022</tranValueDate>
+         <tranPostDate>06/03/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 206520378581 ATM ID IOBD4928 SELF PERUNGUDI              KANCHEEPURAM TRAN DATE  (MMDD) 0306  TRAN TIME  (HHMMSS) 202706</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>3946.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>06/03/2022</tranDate>
+         <tranValueDate>06/03/2022</tranValueDate>
+         <tranPostDate>06/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/206520170770/UPI TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>4446.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate></tranDate>
+         <tranValueDate></tranValueDate>
+         <tranPostDate></tranPostDate>
+         <tranParticulars>BALANCE B/F</tranParticulars>
+         <tranAmount>0.0</tranAmount>
+         <balanceAfterTran>4446.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>08/03/2022</tranDate>
+         <tranValueDate>08/03/2022</tranValueDate>
+         <tranPostDate>08/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206760438322/UPI TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>150.0</tranAmount>
+         <balanceAfterTran>4296.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>09/03/2022</tranDate>
+         <tranValueDate>09/03/2022</tranValueDate>
+         <tranPostDate>09/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/206724374025/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>150.0</tranAmount>
+         <balanceAfterTran>4446.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>10/03/2022</tranDate>
+         <tranValueDate>10/03/2022</tranValueDate>
+         <tranPostDate>10/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/206919333209/UPI TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>133.0</tranAmount>
+         <balanceAfterTran>4579.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>10/03/2022</tranDate>
+         <tranValueDate>10/03/2022</tranValueDate>
+         <tranPostDate>10/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/206911697007/UPI TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>30.0</tranAmount>
+         <balanceAfterTran>4549.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>11/03/2022</tranDate>
+         <tranValueDate>11/03/2022</tranValueDate>
+         <tranPostDate>11/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/207042748416/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>5549.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>11/03/2022</tranDate>
+         <tranValueDate>11/03/2022</tranValueDate>
+         <tranPostDate>11/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207017391324/UPI TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>4549.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>11/03/2022</tranDate>
+         <tranValueDate>11/03/2022</tranValueDate>
+         <tranPostDate>11/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207045372130/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>35.0</tranAmount>
+         <balanceAfterTran>4514.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>12/03/2022</tranDate>
+         <tranValueDate>12/03/2022</tranValueDate>
+         <tranPostDate>12/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207182859806/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>183.0</tranAmount>
+         <balanceAfterTran>4331.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>12/03/2022</tranDate>
+         <tranValueDate>12/03/2022</tranValueDate>
+         <tranPostDate>12/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207138377010/roti TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>30.0</tranAmount>
+         <balanceAfterTran>4301.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>17/03/2022</tranDate>
+         <tranValueDate>17/03/2022</tranValueDate>
+         <tranPostDate>17/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER NEFT/UTIB FOCUS EDUMATICS /AXISP00272383527 TRANSFER FROM 94964000120</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>6514.0</tranAmount>
+         <balanceAfterTran>10815.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>18/03/2022</tranDate>
+         <tranValueDate>18/03/2022</tranValueDate>
+         <tranPostDate>18/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207649852645/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>2000.0</tranAmount>
+         <balanceAfterTran>8815.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>18/03/2022</tranDate>
+         <tranValueDate>18/03/2022</tranValueDate>
+         <tranPostDate>18/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/207701120297/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>200.0</tranAmount>
+         <balanceAfterTran>9015.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>19/03/2022</tranDate>
+         <tranValueDate>19/03/2022</tranValueDate>
+         <tranPostDate>19/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207820460292/Roti TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>30.0</tranAmount>
+         <balanceAfterTran>8985.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/03/2022</tranDate>
+         <tranValueDate>20/03/2022</tranValueDate>
+         <tranPostDate>20/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207958602835/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>196.0</tranAmount>
+         <balanceAfterTran>8789.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/03/2022</tranDate>
+         <tranValueDate>20/03/2022</tranValueDate>
+         <tranPostDate>20/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/207915720408/UPI TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>40.0</tranAmount>
+         <balanceAfterTran>8829.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/03/2022</tranDate>
+         <tranValueDate>20/03/2022</tranValueDate>
+         <tranPostDate>20/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207904924731/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>200.0</tranAmount>
+         <balanceAfterTran>8629.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/03/2022</tranDate>
+         <tranValueDate>20/03/2022</tranValueDate>
+         <tranPostDate>20/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207961078130/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>50.0</tranAmount>
+         <balanceAfterTran>8579.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>20/03/2022</tranDate>
+         <tranValueDate>20/03/2022</tranValueDate>
+         <tranPostDate>20/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/207902261909/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>300.0</tranAmount>
+         <balanceAfterTran>8279.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>22/03/2022</tranDate>
+         <tranValueDate>22/03/2022</tranValueDate>
+         <tranPostDate>22/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208134962291/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>30.0</tranAmount>
+         <balanceAfterTran>8249.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>22/03/2022</tranDate>
+         <tranValueDate>22/03/2022</tranValueDate>
+         <tranPostDate>22/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208115574128/today grocery TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>37.0</tranAmount>
+         <balanceAfterTran>8212.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>23/03/2022</tranDate>
+         <tranValueDate>23/03/2022</tranValueDate>
+         <tranPostDate>23/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208139980193/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>241.0</tranAmount>
+         <balanceAfterTran>7971.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>23/03/2022</tranDate>
+         <tranValueDate>23/03/2022</tranValueDate>
+         <tranPostDate>23/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208105501437/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>1000.0</tranAmount>
+         <balanceAfterTran>6971.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>24/03/2022</tranDate>
+         <tranValueDate>24/03/2022</tranValueDate>
+         <tranPostDate>24/03/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 208320633384 ATM ID CHON2676 SELF +M.G.R Main Road       Chennai TRAN DATE  (MMDD) 0324  TRAN TIME  (HHMMSS) 204652</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>6471.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>25/03/2022</tranDate>
+         <tranValueDate>25/03/2022</tranValueDate>
+         <tranPostDate>25/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/208368845643/Payment from PhonePe TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>300.0</tranAmount>
+         <balanceAfterTran>6771.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>25/03/2022</tranDate>
+         <tranValueDate>25/03/2022</tranValueDate>
+         <tranPostDate>25/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208331600769/From Kartick Patra TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>300.0</tranAmount>
+         <balanceAfterTran>6471.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>26/03/2022</tranDate>
+         <tranValueDate>26/03/2022</tranValueDate>
+         <tranPostDate>26/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208548061566/Pay To THAKUR  SANTO TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>150.0</tranAmount>
+         <balanceAfterTran>6321.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>26/03/2022</tranDate>
+         <tranValueDate>26/03/2022</tranValueDate>
+         <tranPostDate>26/03/2022</tranPostDate>
+         <tranParticulars>ATM WDL ATM WDL SEQ NO 208519000260 ATM ID SPCNL208 SELF +KANDANCHAVADI         CHENNAI TRAN DATE  (MMDD) 0326  TRAN TIME  (HHMMSS) 195923</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>500.0</tranAmount>
+         <balanceAfterTran>5821.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>27/03/2022</tranDate>
+         <tranValueDate>27/03/2022</tranValueDate>
+         <tranPostDate>27/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208612296555/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>583.0</tranAmount>
+         <balanceAfterTran>5238.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>29/03/2022</tranDate>
+         <tranValueDate>29/03/2022</tranValueDate>
+         <tranPostDate>29/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208804241521/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>71.0</tranAmount>
+         <balanceAfterTran>5167.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate></tranDate>
+         <tranValueDate></tranValueDate>
+         <tranPostDate></tranPostDate>
+         <tranParticulars>BALANCE B/F</tranParticulars>
+         <tranAmount>0.0</tranAmount>
+         <balanceAfterTran>5167.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>29/03/2022</tranDate>
+         <tranValueDate>29/03/2022</tranValueDate>
+         <tranPostDate>29/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208803536499/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>52.0</tranAmount>
+         <balanceAfterTran>5115.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>30/03/2022</tranDate>
+         <tranValueDate>30/03/2022</tranValueDate>
+         <tranPostDate>30/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/208939869533/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>19.0</tranAmount>
+         <balanceAfterTran>5096.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/209091559711/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>35.0</tranAmount>
+         <balanceAfterTran>5061.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/209070051545/UPI TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>575.0</tranAmount>
+         <balanceAfterTran>5636.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/209045672800/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>350.0</tranAmount>
+         <balanceAfterTran>5286.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/209029674681/java fees 2000 compl TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>2000.0</tranAmount>
+         <balanceAfterTran>3286.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>BY TRANSFER UPI TRANSFER/209001749204/Payment TRANSFER FROM 97216006010</tranParticulars>
+         <tranTypeIndicator>C</tranTypeIndicator>
+         <tranAmount>3000.0</tranAmount>
+         <balanceAfterTran>6286.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/209052713199/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>3000.0</tranAmount>
+         <balanceAfterTran>3286.83</balanceAfterTran>
+      </rows>
+      <rows>
+         <tranDate>31/03/2022</tranDate>
+         <tranValueDate>31/03/2022</tranValueDate>
+         <tranPostDate>31/03/2022</tranPostDate>
+         <tranParticulars>WITHDRAWAL TRANSFER UPI TRANSFER/209034559068/Payment from PhonePe TRANSFER TO 97215006011</tranParticulars>
+         <tranTypeIndicator>D</tranTypeIndicator>
+         <tranAmount>19.0</tranAmount>
+         <balanceAfterTran>3267.83</balanceAfterTran>
+      </rows>
+   </fData>
+   <closingBalance>3267.83</closingBalance>
+</file>
